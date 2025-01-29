@@ -1,5 +1,5 @@
 ## Mikrotik Feat Fonnte 🚀
-Connect Mikrotik Whatapp With Fonnte for status connection POP or SITE and Server and then the user PPPOE in profile with script.
+Connect Mikrotik Whatapp With Fonnte for status connection POP or SITE and Server and then the user PPPOE status in profile with script.
 
 🎖️ **Tested on Mikrotik v.7.0**
 
