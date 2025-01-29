@@ -9,7 +9,7 @@ Send Message Fonnte Via Terminal :speech_balloon:
 /tool fetch url="https://api.fonnte.com/send" http-header-field="Authorization:@token" http-method=post http-data="target=@nohp&message=Tes API dari MikroTik" output=user
 ```
 
-PPPOE Profile Script Status UP :heavy_check_mark:
+PPPOE Profile Script Status User UP :heavy_check_mark:
 ```
 :local nama "$user";
 :local wa "@nohp";
@@ -24,7 +24,7 @@ PPPOE Profile Script Status UP :heavy_check_mark:
 :local lastcall [/ppp secret get [find name=$user] last-caller-id];
 /tool fetch url="https://api.fonnte.com/send" http-header-field="Authorization@token" http-method=post http-data="target=$wa&message=\E2\9C\85 PPPoE LOGIN%0A$datetime%0AUser: $user%0AIP Client: $ips%0ACaller ID: $caller%0AUptime: $up%0ATotal Active: $active Client%0AService: $service%0ALast Disconnect Reason: $lastdisc %0ALast Logout: $lastlogout %0ALast Caller ID: $lastcall" keep-result=no;
 ```
-PPPOE Profile Script Status DOWN :x:
+PPPOE Profile Script Status User DOWN :x:
 ```
 :local wa "@nohp";
 :local lastdisc [/ppp secret get [find name=$user] last-disconnect-reason];
