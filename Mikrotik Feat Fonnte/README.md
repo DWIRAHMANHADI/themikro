@@ -57,3 +57,7 @@ Netwatch Check Status DOWN :x:
 |:---------|:----|
 |**@nohp**|add number-phone or grupid@g.us|
 |**@token**|token fonnte|
+
+📖 _read the introduction for [API](https://docs.fonnte.com/getting-started-2/) Fonnte_
+
+✏️  _you can use the other provider whatapp unofficial, change the variable **url, target and message**_
