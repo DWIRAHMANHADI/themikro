@@ -9,7 +9,7 @@ Download copy and paste routeros_api.class.php on your folder
 https://github.com/BenMenking/routeros-api/blob/master/routeros_api.class.php
 ```
 
-Create file php name bandwidth_pppoe.php :heavy_check_mark:
+Create file php name bandwidth_pppoe.php 📂
 ```
 <?php
 require('routeros_api.class.php');
@@ -69,7 +69,7 @@ if ($API->connect('192.168.88.1', 'admin', 'password', port)) {
 }
 ?>
 ```
-Create file index.html on the root folder :x:
+Create file index.html on the root folder 📂
 ```
 <!DOCTYPE html>
 <html lang="id">
@@ -304,5 +304,5 @@ Create file index.html on the root folder :x:
 :pushpin: __Spesial Noted in Script__
 | Variable     | Information |
 |:---------|:----|
-|**connect('192.168.88.1', 'admin', 'password', port))**|change this query
+|**_connect('192.168.88.1', 'admin', 'password', port))_**|change this query
 
